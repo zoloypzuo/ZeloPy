@@ -1,0 +1,15 @@
+# jetbrain
+**/.idea/
+**/cmake-build*/
+
+# mac os
+.DS_Store
+
+# py binary
+__pycache__/
+*.pyc
+
+# build and binary
+build*/**
+bin*/**
+**/lib/**
