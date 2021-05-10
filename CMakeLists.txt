@@ -39,10 +39,12 @@ add_compile_definitions(UNICODE)
 # avoid some bugs with Windows...
 add_compile_definitions(NOMINMAX)
 
+# build src
 add_compile_definitions(ZELO_DEBUG)
 add_subdirectory(src)
 
-include_directories(include)
+# build hello
+include_directories(include src)
 link_libraries(Runtime)
 
 add_executable(hello main.cpp)
