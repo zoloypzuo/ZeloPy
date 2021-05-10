@@ -10,18 +10,18 @@ Python虚拟机Demo
 
 # 目标
 
-* [] 基本的Python虚拟机和Runtime环境
-* [] 基本的GC和内存管理
-* [] 代码品控 CI/CD管线
-    * [] 构建
-    * [] 测试
-    * [] 覆盖率
+* [ ] 基本的Python虚拟机和Runtime环境
+* [ ] 基本的GC和内存管理
+* [ ] 代码品控 CI/CD管线
+    * [ ] 构建
+    * [ ] 测试
+    * [ ] 覆盖率
 
 # 构建
 
 使用cmake构建，无第三方依赖
 
-以VS2019 Win32 Debug为主，运行`build_vs2019.bat`
+以VS2019 Win32 Debug为主，运行`tool/build_vs2019.bat`
 
 # 工作量评估
 
