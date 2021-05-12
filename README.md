@@ -10,9 +10,9 @@ Python虚拟机Demo
 
 # 目标
 
-* [ ] 基本的Python虚拟机和Runtime环境
-* [ ] 基本的GC和内存管理
-* [ ] 代码品控 CI/CD管线
+* [x] 基本的Python虚拟机和Runtime环境
+* [ ] ~~基本的GC和内存管理~~
+* [ ] ~~代码品控 CI/CD管线~~
     * [ ] 构建
     * [ ] 测试
     * [ ] 覆盖率
@@ -23,6 +23,3 @@ Python虚拟机Demo
 
 以VS2019 Win32 Debug为主，运行`tool/build_vs2019.bat`
 
-# 工作量评估
-
-由于代码要求不高，以熟悉C++为主，两周内完成
